@@ -1,0 +1,25 @@
+#app{
+    width: 1200px;
+    height:auto;
+}
+
+.container{
+    width: 800px;
+    margin-top: 100px;
+    display:flex;
+}
+
+.knapper{
+    display:flex;
+    justify-content: space-between;
+    width:1150px;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+.navn, .nameInput{
+    text-align: center;
+    margin: 20px;
+}
+.navn{
+    color: red;
+}

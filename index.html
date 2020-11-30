@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title>drums</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+    <div id="app">
+
+        <div class="navn">
+            <h1>{{ name }}s drumset</h1>
+        </div>
+
+        <div class="nameInput">
+            <p>You're name <input v-model="name"></p>
+        </div>
+    </div>
+
+        <div class="container">
+            <div>
+                <img @click="tom1()" src="images/tom1.png">
+            </div>
+
+            <div>
+                <img @click="tom2()" src="images/tom2.png">
+            </div>
+
+            <div>
+                <img @click="snare()" src="images/snare.png">
+            </div>
+
+            <div>
+                <img @click="kickBass()" src="images/kick.png">
+            </div>
+
+            <div>
+                <img @click="tom3()" src="images/tom3.png">
+            </div>
+
+            <div>
+                <img @click="tom4()" src="images/tom4.png">
+            </div>
+
+            <div>
+                <img @click="crash()" src="images/crash.png">
+            </div>
+
+        </div>
+
+        <div class="knapper">
+            <h2>G</h2>
+            <h2>H</h2>
+            <h2>T</h2>
+            <h2>B</h2>
+            <h2>J</h2>
+            <h2>K</h2>
+            <h2>I</h2>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
